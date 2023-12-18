@@ -3,7 +3,7 @@
 
 ~ Module 6 ~
 
-6.1.1.3
+6.1.1.3 The structures: why?
 	- STRUCTURE: là tập hợp các elements có các types khác nhau.
 	- Structure chứa số lượng bất kì của những elements có type bất kì.
 	- Mỗi element gọi là FIELD, identified bởi name, không phải bởi number của nó.
@@ -82,7 +82,7 @@
 		} HarryPotter;
 
 
-6.1.2.1
+6.1.2.1 Declaring and initializing structures
 	- Structure's field có thể trùng với tag names:
 
 		struct STRUCT
@@ -93,7 +93,7 @@
 		Structure.STRUCT = 0; /* STRUCT is a field name here */
 
 
-6.1.2.2
+6.1.2.2 Structures - a few important rules
 	- Không nên để structure's tag name trùng với variable's name như này:
 
 		struct STR
@@ -123,7 +123,7 @@
 		str2.f1 = str1.f1;
 
 
-6.1.2.4
+6.1.2.4 Initializing structures
 	- Example:
 
 		struct DATE date = {2012, 12, 21};
@@ -269,7 +269,7 @@
 		. 1 union chỉ chứa 1 value, 1 struct chứa tất cả values của members
 
 
-6.1.3.6
+6.1.3.6 Basics of recursive data collections
 	- Bất kỳ structure's fields nào cũng có thể là pointer đến structure đang được khai báo.
 
 		struct ELEMENT {
@@ -332,4 +332,3 @@
 		}
 
 		printf("done!");
-
