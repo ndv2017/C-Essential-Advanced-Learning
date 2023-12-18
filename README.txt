@@ -36,5 +36,7 @@ TUẦN 2: 12/12 - 18/12
 				Hoàn thành xong 6.1.3.8
 
 	*Chưa làm được:
+
+		Bài 2:
 			Triển khai hoàn thành chứng chỉ C Essentials - Part 2 (Intermediate)
 				Chưa hoàn thành chứng chỉ
