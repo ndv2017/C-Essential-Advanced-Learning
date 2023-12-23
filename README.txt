@@ -40,3 +40,18 @@ TUẦN 2: 12/12 - 18/12
 		Bài 2:
 			Triển khai hoàn thành chứng chỉ C Essentials - Part 2 (Intermediate)
 				Chưa hoàn thành chứng chỉ
+
+
+TUẦN 3: 19/12 - 25/12
+
+	* Đã làm được:
+
+		Bài 2: 
+			Triển khai hoàn thành chứng chỉ C Essentials - Part 2 (Intermediate)
+				Hoàn thành xong 7.1.3.1
+
+	*Chưa làm được:
+
+		Bài 2:
+			Triển khai hoàn thành chứng chỉ C Essentials - Part 2 (Intermediate)
+				Chưa hoàn thành chứng chỉ
