@@ -62,7 +62,7 @@ TUẦN 4: 26/12 - 2/3
 	* Đã làm được:
 
 		Bài 1:
-			Triển khai hoàn thành chứng chỉ C Essentials - Part 2 (Intermediate)
+			Triển khai hoàn thành kiến thức chứng chỉ C Essentials - Part 2 (Intermediate)
 
 		Bài 2:
 			Hoàn thành 10 bài easy của Hackerrank, tạo folder và up file lên github.
@@ -70,4 +70,5 @@ TUẦN 4: 26/12 - 2/3
 
 	*Chưa làm được:
 
-		Bài 1: Chưa hoàn thành LAB của module 8
+		Bài 1: 
+			Chưa hoàn thành LAB của module 8
