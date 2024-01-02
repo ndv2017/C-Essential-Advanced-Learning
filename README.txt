@@ -69,3 +69,5 @@ TUẦN 4: 26/12 - 2/3
 
 
 	*Chưa làm được:
+
+		Bài 1: Chưa hoàn thành LAB của module 8
