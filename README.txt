@@ -69,6 +69,3 @@ TUẦN 4: 26/12 - 2/3
 
 
 	*Chưa làm được:
-
-		Bài 1: 
-			Chưa hoàn thành Test module 8 và Test Final
