@@ -175,12 +175,12 @@
 	- Chúng tôi sẽ cung cấp thông tin thêm về các quá trình và luồng sớm. Hãy tiếp tục theo dõi.
 
 
-1.2.1.1 Trigraphs and digraphs
+1.1.2.1 Trigraphs and digraphs
 	- Mở lại link để xem các kí tự trong bảng
 		https://edube.org/learn/c-advanced/trigraphs-and-digraphs-8
 
 
-1.2.1.2
+1.1.2.2
 	- Đầu tiên, note rằng có tận 3 spaces khác nhau, ASCII chỉ dùng 1, coded as 32(0x20). Trong EBCDIC, cái thứ 2 là khoảng trắng non-breaking, còn cái thứ 3 là để tách digits in long number.
 
 		Decimal		Hex			Sign
@@ -196,7 +196,7 @@
 		95			5F			¬
 
 
-1.2.1.3 -> 1.2.1.4
+1.1.2.3 -> 1.1.2.4
 	- Trong ASCII, tất cả kí hiệu alphabet từ a đến z đều được set một cách coherent và có logic. Kiểu nếu lấy a - z + 1 hay kiểu như vậy thì vẫn hiểu được ra cái gì
 
 	- Còn trong EBCDIC, thì có những cái khác như kiểu giữa I với J, hay giữa R với S có thêm kí tự gì đó, cụ thể xem link
@@ -228,7 +228,7 @@
 	- Note: tất nhiên các phiên bản hiện đại của EBCDIC đã bổ sung 2 signs này và những signs cần thiết khác. Tuy vậy ta đang xét trên vị trí người sáng tạo.
 
 
-1.2.1.5
+1.1.2.5
 	- Ta không thể viết lại hết tất cả chtrinh, trong khi dùng square bracket gần như là bắt buộc, ví dụ như khi khai báo array.
 
 	- Cách để khắc phục: mở rộng language definition bởi 1 chuỗi kí tự được defined một cách đặt biệt. Và cái tên trigraph - 1 three-character-long sequence được chọn.
@@ -248,7 +248,7 @@
 		??-				~
 
 
-1.2.1.6
+1.1.2.6
 	- Một snippet sử dụng các trigraphs:
 
 		??=include <stdio.h>
@@ -267,7 +267,7 @@
 		. Đối với những cái khác thì tự tìm hiểu
 
 
-1.2.1.7
+1.1.2.7
 	- Mặc dù vẫn legal và có thể viết chtrinh C với trigraphs, nhưng chúng đã được thay thế (hoặc đúng hơn là bổ sung) 1 concept đơn giản tên:
 
 		digraph
@@ -285,7 +285,7 @@
 		%:			#
 
 
-1.2.1.8
+1.1.2.8
 	- Snippet dùng digraphs:
 
 		%:include < stdio.h > 
@@ -321,7 +321,7 @@
 			}
 
 
-1.3.1.1 Standardization and standards
+1.1.3.1 Standardization and standards
 	- Tiêu chuẩn hóa mọi thứ sẽ giúp chúng ta làm việc, hoạt động tốt hơn, không bị nhầm lẫn.
 
 	- Tất nhiên, ngôn ngữ lập trình cũng thế. Thực tế thì C language không phải real, nó chỉ là 1 abstract entity. Nó sẽ trở thành real khi được implemented thành công.
@@ -330,7 +330,7 @@
 	- Có hàng tá các triển khai ngôn ngữ C hoàn toàn độc lập - hãy xem qua một vài cái thú vị nhất
 
 
-1.3.1.2
+1.1.3.2
 	GCC
 	- GCC là một cái gì đó còn hơn cả 1 compiler - gọi là toolchain và compiler collection.
 		. Cái đầu tiên có nghĩa là GCC chứa 1 loạt các tools độc lập nhưng cooperating với nhau, cho phép programmers thực hiện tất cả jobs của họ với những phương tiện từ cùng 1 source, và dùng chúng một cách tương tự nhau.
@@ -340,7 +340,7 @@
 		. Trong nhiều năm, GCC thống trị, nhưng gần đây có 1 đối thủ nặng kí nổi lên - Clang
 
 
-1.3.1.3 -> 1.3.1.9
+1.1.3.3 -> 1.1.3.9
 	- Clang
 	- ICC
 	- XL C/C++
@@ -366,7 +366,7 @@
 			> hardware - nền tảng phần cứng khác nhau có thể dùng data sizes and ordering khác nhau
 
 
-1.3.1.10
+1.1.3.10
 	- Có 2 loại computers trên thế giới, chúng khác nhau trong cách multibyte data được sắp xếp trong bộ nhớ. Giả sử rằng các giá trị nguyên kiểu short chiếm 2 byte (16 bit). Hai byte này của biến nằm ở địa chỉ x và x + 1. Giá trị 16 bit được chia thành 2 byte: byte thấp hơn (chứa các bit ít quan trọng hơn) và byte cao hơn (chứa các bit quan trọng hơn).
 
 	- Nhưng: byte nào trong hai byte này nằm ở địa chỉ x (địa chỉ cao hơn hay thấp hơn?) và byte nào nằm ở địa chỉ x + 1 (địa chỉ thấp hơn hay cao hơn?)?
@@ -392,7 +392,7 @@
 	- Analyze the code và giải thích tại sao?
 
 
-1.4.1.1 New keywords and capabilities
+1.1.4.1 New keywords and capabilities
 	- Giờ chúng ta sẽ review nhanh về vài keywords và capabilities mới được giới thiệu cho C language bởi những tiêu chuẩn C95 và C11.
 		. Làm quen với trends và hướng đi hiện nay của sự phát triển ngôn ngữ
 
@@ -401,7 +401,7 @@
 	- Note những bảng nhỏ ở cuối mỗi slide - thứ sẽ cho ta biết về compiler nào trong những compilers nổi tiếng sẽ chấp nhận những feature đang thảo luận.
 
 
-1.4.1.2
+1.1.4.2
 	_Noreturn keyword
 
 	- Thêm 1 keyword vào 1 chtrinh đã tồn tại khá nguy hiểm. Bởi có thể từ này đã được dùng trước đó, có thể gây compilation error.
@@ -441,7 +441,7 @@
 	+				+					-
 
 
-1.4.1.3
+1.1.4.3
 	_Bool keyword
 
 	- _Bool được thiết kế để giới thiệu một kiểu data mới.
@@ -475,7 +475,7 @@
 	+				+					+
 
 
-1.4.1.4
+1.1.4.4
 	_Exit keyword
 
 	- Hàm _Exit là một bản sao mạnh mẽ hơn của hàm exit(), và giống như các hàm cũ của nó, cần include header "stdlib.h" vào trước lần sử dụng đầu tiên, nhưng nếu cần bàn về nó, chúng ta nên nói vài lời về cơ chế được cung cấp bởi hàm atexit() (nó cũng từ stdlib.h).
@@ -534,7 +534,8 @@
 	gcc x.x			Clang y.y			CL 19.x
 	+				+					+
 
-1.4.1.5
+
+1.1.4.5
 	_Generic keyword
 
 	- _Generic keyword là 1 thành phần của syntax/mệnh đề mới được thêm vào C11 và được đặt tên là generic selection (lựa chọn chung), dùng để chỉ cho compiler nên chọn thực thể nào tùy thuộc vào loại expression.
@@ -598,7 +599,8 @@
 	gcc x.x		Clang y.y		CL 19.x
 	+			+				-
 
-1.4.1.6
+
+1.1.4.6
 	__func__ symbol
 
 	- __func__ là 1 preprocessor symbol. Bộ tiền xử lý của C language định nghĩa 2 symbols, thứ có thể dùng để xác định vị trí chúng xuất hiện. Những symbols đó là:
@@ -650,7 +652,7 @@
 	+			+				+
 
 
-1.4.1.7
+1.1.4.7
 	_Complex keyword
 
 	- _Complex đề cập đến khái niệm toán học của cái gọi là số phức.
@@ -700,7 +702,8 @@
 	gcc x.x		Clang y.y		CL 19.x
 	+			+				-
 
-1.4.1.8
+
+1.1.4.8
 	_Alignof and _Alignas keywords
 
 	- Trước khi giải thích mục đích của những keyword này thì phải giải thích trước về term alignment (hay đúng hơn là data alignment).
@@ -829,7 +832,7 @@
 	+			+				-
 
 
-1.4.1.9
+1.1.4.9
 	_Pragma preprocessor operator
 
 	- Để biết về _Pragma, trước tiên cần biết về #pragma. #pragma là một preprocessor directive (lệnh tiền xử lý) được sử dụng để giao tiếp với compiler và được thiết kế để sửa đổi hành vi của compiler; do đó; nó phụ thuộc rất nhiều vào việc triển khai và nền tảng mục tiêu. Tập hợp các pragma có thể và có thể sử dụng được không phải là một phần của tiêu chuẩn ngôn ngữ và có thể được tìm thấy trong tài liệu về compiler và môi trường.
