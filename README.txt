@@ -91,6 +91,5 @@ TUẦN 5: 4/1 - 10/1
 
 		Bài 2:
 			Triển khai hoàn thành chứng chỉ C Essentials - Part 3 (Advanced)
-				Chưa hoàn thành test module 1.
 				Chưa hoàn thành module 2, 3.
 
