@@ -69,3 +69,27 @@ TUẦN 4: 26/12 - 2/3
 
 
 	*Chưa làm được:
+
+
+
+TUẦN 4: 26/12 - 2/3
+
+	* Đã làm được:
+
+		Bài 1:
+			Triển khai cập nhật hoàn thành chứng chỉ C Essentials - Part 2 (Intermediate)
+
+		Bài 2:
+			Triển khai hoàn thành chứng chỉ C Essentials - Part 3 (Advanced)
+				Hoàn thành Module 1
+
+		Bài 3:
+			Cập nhật chỉnh lại folder Hackerrank trên Github.
+
+
+	*Chưa làm được:
+
+		Bài 2:
+			Triển khai hoàn thành chứng chỉ C Essentials - Part 3 (Advanced)
+				Chưa hoàn thành module 2, 3.
+
