@@ -105,3 +105,15 @@ TUẦN 6: 12/1 - 18/1
 
 	*Chưa làm được:
 
+
+
+TUẦN 7: 20/1 - 27/1
+
+	* Đã làm được:
+
+		Bài 1:
+			Triển khai hoàn thành chứng chỉ C Essentials - Part 3 (Advanced)
+				Hoàn thành module 4, 5.
+
+
+	*Chưa làm được:
