@@ -117,3 +117,20 @@ TUẦN 7: 20/1 - 27/1
 
 
 	*Chưa làm được:
+
+
+
+TUẦN 7: 28/1 - 3/2
+
+	* Đã làm được:
+
+		Bài 1:
+			Triển khai hoàn thành chứng chỉ C Essentials - Part 3 (Advanced)
+				Hoàn thành module 6, 7, 8.
+
+
+	*Chưa làm được:
+
+		Bài 1:
+			Triển khai hoàn thành chứng chỉ C Essentials - Part 3 (Advanced)
+				Chưa hoàn thành Final Test.
